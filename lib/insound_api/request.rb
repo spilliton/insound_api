@@ -2,13 +2,19 @@ require 'rest_client'
 
 module InsoundApi
 
+  class RequestException < Exception; end
+
   class Request
 
     BASE_URL = "https://www.insound.com/ws/affiliate/"
 
     attr_reader :params
 
-    def initialize(opts)
+    def initialize(opts={})
+      unless opts[:artist]
+        raise RequestException, ":artist is a required param for any request"
+      end
+
       @params = opts
     end
 
@@ -18,26 +24,14 @@ module InsoundApi
     end
 
     def get_response
-      InsoundApi.config.affiliate_id
+      data = RestClient.get(build_url)
+      response = data ? build_response(data) : nil
 
-      response = nil
-      url = build_url
-      headers = {  }
-
-      begin
-
-        data = RestClient.get(url, headers)
-
-      rescue RestClient::Unauthorized
-        raise "Request rejected.  Please ensure your credentials are correct."
+      if response.errors?
+        raise RequestException, "The following errors were returned: #{response.errors.inspect}"
+      else
+        response
       end
-
-
-      if data
-        response = build_response(data)
-      end
-
-      response
     end
 
     def build_response(data)
