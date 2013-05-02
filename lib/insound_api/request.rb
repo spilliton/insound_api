@@ -4,21 +4,22 @@ module InsoundApi
 
   class Request
 
-    attr_reader :method, :path, :params, :param_name
+    BASE_URL = "https://www.insound.com/ws/affiliate/"
 
-    def initialize(opts={})
-      @method = opts[:method]
-      @path = opts[:path]
-      @params = opts[:params] || {}
-      @param_name = opts[:param_name]
+    attr_reader :params
+
+    def initialize(opts)
+      @params = opts
     end
 
-    def self.get(path, opts={})
-      request = Request.new(opts.merge(:path => path))
+    def self.get(opts={})
+      request = Request.new(opts)
       request.get_response
     end
 
     def get_response
+      InsoundApi.config.affiliate_id
+
       response = nil
       url = build_url
       headers = {  }
@@ -26,7 +27,7 @@ module InsoundApi
       begin
 
         data = RestClient.get(url, headers)
-        
+
       rescue RestClient::Unauthorized
         raise "Request rejected.  Please ensure your credentials are correct."
       end
@@ -40,7 +41,7 @@ module InsoundApi
     end
 
     def build_response(data)
-      Response.new(:raw_xml => data.to_str, :request => self, :status => data.code)  
+      Response.new(:raw_xml => data.to_str, :request => self)
     end
 
     def build_params
@@ -48,16 +49,31 @@ module InsoundApi
     end
 
     def build_url
-      url = "#{mothership_url}#{path}" 
-      if params.any? && method == :get
+      url = base_url_with_creds
+      if params.any?
         parts = []
         params.each_pair do |name, value|
           parts << "#{URI.escape(name.to_s)}=#{URI.escape(value.to_s)}"
         end
-        url = "#{url}?#{parts.join('&')}"
+        url = "#{url}&#{parts.join('&')}"
       end
       url
     end
+
+
+    def affiliate_id
+      InsoundApi.config.affiliate_id
+    end
+
+    def api_password
+      InsoundApi.config.api_password
+    end
+
+    def base_url_with_creds
+      "#{BASE_URL}?id=#{affiliate_id}&password=#{api_password}"
+    end
+
+
 
   end
 end
