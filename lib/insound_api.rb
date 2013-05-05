@@ -1,9 +1,14 @@
 module InsoundApi
   autoload :Config, 'insound_api/config'
   autoload :Request, 'insound_api/request'
+  autoload :Query, 'insound_api/query'
+  autoload :Results, 'insound_api/results'
   autoload :RequestException, 'insound_api/request'
   autoload :Response, 'insound_api/response'
+
+  autoload :ObjectBase, 'insound_api/object_base'
   autoload :Product, 'insound_api/product'
+  autoload :Artist, 'insound_api/artist'
 
 
   class ConfigException < Exception

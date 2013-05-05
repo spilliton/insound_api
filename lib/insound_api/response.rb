@@ -4,12 +4,13 @@ require 'rest-client'
 module InsoundApi
   class Response
 
-    attr_reader :request, :raw_xml, :doc
+    attr_reader :request, :raw_xml, :doc, :results
 
     def initialize(opts={})
       @request = opts[:request]
       @raw_xml = opts[:raw_xml]
       @doc = Nokogiri::XML(@raw_xml)
+      @results = Results.new(@doc)
     end
 
     def errors?

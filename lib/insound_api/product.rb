@@ -1,13 +1,17 @@
 module InsoundApi
-  class Product < ApiBase
+  class Product < ObjectBase
 
-    def self.search(params={})
-      params[:requesttype] = 'product'
-      response = Request.get(params)
+    def artist_name
+      @artist_name ||= parse_str('artist_name')
     end
 
+    def format
+      @format ||= parse_str('format')
+    end
 
-
+    def id
+      @id ||= parse_str('product_id')
+    end
 
   end
 end

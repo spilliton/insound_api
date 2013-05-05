@@ -7,12 +7,17 @@ module InsoundApi
   class Request
 
     BASE_URL = "https://www.insound.com/ws/affiliate/"
+    VALID_FORMATS = %w{all vinyl seveninch digital poster shirt cd}
 
     attr_reader :params
 
     def initialize(opts={})
       unless opts[:artist]
         raise RequestException, ":artist is a required param for any request"
+      end
+
+      if opts[:format] && !VALID_FORMATS.include?(opts[:format].downcase)
+        raise RequestException, ":format must be one of the follwing: #{VALID_FORMATS.join(', ')}"
       end
 
       @params = opts
@@ -51,6 +56,8 @@ module InsoundApi
         end
         url = "#{url}&#{parts.join('&')}"
       end
+      puts "url: #{url.inspect}"
+
       url
     end
 
