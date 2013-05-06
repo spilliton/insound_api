@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = "insound_api"
-  s.version = "0.0.2"
+  s.version = "0.0.3"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Zachary Kloepping"]
@@ -27,7 +27,6 @@ Gem::Specification.new do |s|
     "lib/insound_api.rb",
     "lib/insound_api/artist.rb",
     "lib/insound_api/config.rb",
-    "lib/insound_api/object_base.rb",
     "lib/insound_api/product.rb",
     "lib/insound_api/query.rb",
     "lib/insound_api/request.rb",
