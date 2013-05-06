@@ -8,14 +8,32 @@ module InsoundApi
         setup_credentials
       end
 
+
+
       context 'search by artist returning no results' do
         setup do
           mock(:no_results_found, "?artist=xxcxccxcx")
           @results = Query.search(:artist => 'xxcxccxcx')
         end
 
-
         should 'return empty stuff' do
+          assert_equal [], @results.products
+          assert_equal [], @results.artists
+
+          assert_equal 0, @results.products_total
+          assert_equal 0, @results.artists_total
+          assert_equal 0, @results.total_results
+          assert @results.search_url
+        end
+      end
+
+      context 'using module search' do
+        setup do
+          mock(:no_results_found, "?artist=xxcxccxcx")
+          @results = InsoundApi.search(:artist => 'xxcxccxcx')
+        end
+
+         should 'return empty stuff' do
           assert_equal [], @results.products
           assert_equal [], @results.artists
 

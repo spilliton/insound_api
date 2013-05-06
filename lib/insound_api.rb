@@ -34,4 +34,8 @@ eos
     @config = Config.new
     yield @config
   end
+
+  def self.search(params)
+    Query.search(params)
+  end
 end

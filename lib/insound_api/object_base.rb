@@ -1,8 +1,6 @@
 module InsoundApi
   class ObjectBase
 
-    attr_reader :node
-
     def initialize(node)
       @node = node
     end
@@ -15,12 +13,14 @@ module InsoundApi
       @title ||= parse_str('title')
     end
 
+    private
+
     def parse_str(selector)
-      Results.parse_str(selector, node)
+      Results.parse_str(selector, @node)
     end
 
     def parse_int(selector)
-      Results.parse_int(selector, node)
+      Results.parse_int(selector, @node)
     end
 
   end
