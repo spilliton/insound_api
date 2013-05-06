@@ -17,8 +17,8 @@ Jeweler::Tasks.new do |gem|
   gem.name = "insound_api"
   gem.homepage = "http://github.com/spilliton/insound_api"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{A ruby gem for accessing the insound.com Web Service API for affiliates}
+  gem.description = %Q{TA ruby gem for accessing the insound.com Web Service API for affiliates}
   gem.email = "kloeppingzd@gmail.com"
   gem.authors = ["Zachary Kloepping"]
   # dependencies defined in Gemfile
