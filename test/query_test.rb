@@ -5,7 +5,8 @@ module InsoundApi
 
     context 'search by artist returning no results' do
       setup do
-        setup_credentials_from_config
+        setup_credentials
+        mock(:no_results_found, "?artist=xxcxccxcx")
         @results = Query.search(:artist => 'xxcxccxcx')
       end
 
@@ -23,7 +24,8 @@ module InsoundApi
 
     context 'search artist vinyl format' do
       setup do
-        setup_credentials_from_config
+        setup_credentials
+        mock(:jimmy_eat_world_vinyl, "?artist=Jimmy%20Eat%20World&format=vinyl")
         @results = Query.search(:artist => 'Jimmy Eat World', :format => 'vinyl')
       end
 

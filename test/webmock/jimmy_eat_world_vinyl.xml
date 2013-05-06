@@ -1,0 +1,45 @@
+<insound_query_response>
+<warnings/>
+<errors/>
+<product_matches>
+<product>
+<url>
+http://www.insound.com/Invented-Vinyl-LP-Jimmy-Eat-World/P/INS79668/&from=86902
+</url>
+<artist_name>Jimmy Eat World</artist_name>
+<title>Invented</title>
+<format>Vinyl LP</format>
+<product_id>INS79668</product_id>
+</product>
+<product>
+<url>
+http://www.insound.com/Chase-This-Light-Vinyl-LP-Jimmy-Eat-World/P/INS39744/&from=86902
+</url>
+<artist_name>Jimmy Eat World</artist_name>
+<title>Chase This Light</title>
+<format>Vinyl LP</format>
+<product_id>INS39744</product_id>
+</product>
+<product>
+<url>
+http://www.insound.com/Bleed-American-Vinyl-3xLP-Jimmy-Eat-World/P/INS111472/&from=86902
+</url>
+<artist_name>Jimmy Eat World</artist_name>
+<title>Bleed American</title>
+<format>Vinyl 3xLP</format>
+<product_id>INS111472</product_id>
+</product>
+</product_matches>
+<artist_matches>
+<artist>
+<artist_name>Jimmy Eat World</artist_name>
+<url>
+http://www.insound.com/Jimmy-Eat-World/A/19191/&from=86902
+</url>
+<artist_id>19191</artist_id>
+</artist>
+</artist_matches>
+<total_results>4</total_results>
+<total_product_results>3</total_product_results>
+<total_artist_results>1</total_artist_results>
+</insound_query_response>
