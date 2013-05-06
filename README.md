@@ -1,6 +1,6 @@
 # insound_api
 
-
+[![Gem Version](https://badge.fury.io/rb/insound_api.png)](http://badge.fury.io/rb/insound_api)
 [![Build Status](https://secure.travis-ci.org/spilliton/insound_api.png?branch=master)](http://travis-ci.org/spilliton/insound_api)
 [![Code Climate](https://codeclimate.com/github/spilliton/insound_api.png)](https://codeclimate.com/github/spilliton/insound_api)
 
