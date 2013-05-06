@@ -1,18 +1,13 @@
 module InsoundApi
-  class Artist < ObjectBase
+  class Artist
 
-    def name
-      @name ||= parse_str('artist_name')
+    attr_reader :url, :id, :name
+
+    def initialize(node)
+      @url = Results.parse_str('url', node)
+      @name = Results.parse_str('artist_name', node)
+      @id = Results.parse_int('artist_id', node)
     end
-
-    def format
-      @format ||= parse_str('format')
-    end
-
-    def id
-      @id ||= parse_int('artist_id')
-    end
-
 
   end
 end

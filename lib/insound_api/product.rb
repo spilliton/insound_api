@@ -1,16 +1,16 @@
 module InsoundApi
-  class Product < ObjectBase
+  class Product
 
-    def artist_name
-      @artist_name ||= parse_str('artist_name')
-    end
+    attr_reader :url, :id, :title
+    attr_reader :artist_name, :format
 
-    def format
-      @format ||= parse_str('format')
-    end
 
-    def id
-      @id ||= parse_str('product_id')
+    def initialize(node)
+      @url = Results.parse_str('url', node)
+      @id = Results.parse_str('product_id', node)
+      @title = Results.parse_str('title', node)
+      @artist_name = Results.parse_str('artist_name', node)
+      @format = Results.parse_str('format', node)
     end
 
   end

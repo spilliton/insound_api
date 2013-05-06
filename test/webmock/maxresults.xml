@@ -1,332 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <insound_query_response>
-<warnings/>
-<errors/>
-<product_matches>
-<product>
-<url>
-http://www.insound.com/Funeral-CD-Arcade-Fire/P/INS23877/&from=86902
-</url>
-<artist_name>Arcade Fire</artist_name>
-<title>Funeral</title>
-<format>CD</format>
-<product_id>INS23877</product_id>
-</product>
-<product>
-<url>
-http://www.insound.com/The-Suburbs-Vinyl-2xLP-Arcade-Fire/P/INS76692/&from=86902
-</url>
-<artist_name>Arcade Fire</artist_name>
-<title>The Suburbs</title>
-<format>Vinyl 2xLP</format>
-<product_id>INS76692</product_id>
-</product>
-<product>
-<url>
-http://www.insound.com/Neon-Bible-Vinyl-LP-Arcade-Fire/P/INS33679/&from=86902
-</url>
-<artist_name>Arcade Fire</artist_name>
-<title>Neon Bible</title>
-<format>Vinyl LP</format>
-<product_id>INS33679</product_id>
-</product>
-<product>
-<url>
-http://www.insound.com/Neon-Bible-CD-Arcade-Fire/P/INS33678/&from=86902
-</url>
-<artist_name>Arcade Fire</artist_name>
-<title>Neon Bible</title>
-<format>CD</format>
-<product_id>INS33678</product_id>
-</product>
-<product>
-<url>
-http://www.insound.com/Neon-Bible-Deluxe-Edition-CD-Arcade-Fire/P/INS33683/&from=86902
-</url>
-<artist_name>Arcade Fire</artist_name>
-<title>Neon Bible (Deluxe Edition)</title>
-<format>CD</format>
-<product_id>INS33683</product_id>
-</product>
-<product>
-<url>
-http://www.insound.com/Funeral-Reissue-Vinyl-LP-Arcade-Fire/P/INS70891/&from=86902
-</url>
-<artist_name>Arcade Fire</artist_name>
-<title>Funeral (Reissue)</title>
-<format>Vinyl LP</format>
-<product_id>INS70891</product_id>
-</product>
-<product>
-<url>
-http://www.insound.com/Arcade-Fire-CDep-Arcade-Fire/P/INS26865/&from=86902
-</url>
-<artist_name>Arcade Fire</artist_name>
-<title>Arcade Fire</title>
-<format>CDep</format>
-<product_id>INS26865</product_id>
-</product>
-<product>
-<url>
-http://www.insound.com/May-29-30-2007-Show-Poster-poster-Arcade-Fire/P/INS36391/&from=86902
-</url>
-<artist_name>Arcade Fire</artist_name>
-<title>May 29 & 30, 2007 Show Poster</title>
-<format>Poster</format>
-<product_id>INS36391</product_id>
-</product>
-<product>
-<url>
-http://www.insound.com/The-Suburbs-CD-Arcade-Fire/P/INS76693/&from=86902
-</url>
-<artist_name>Arcade Fire</artist_name>
-<title>The Suburbs</title>
-<format>CD</format>
-<product_id>INS76693</product_id>
-</product>
-<product>
-<url>
-http://www.insound.com/Miroir-Noir-Deluxe-Edition-2xDVD-Arcade-Fire/P/INS54522/&from=86902
-</url>
-<artist_name>Arcade Fire</artist_name>
-<title>Miroir Noir (Deluxe Edition)</title>
-<format>2xDVD</format>
-<product_id>INS54522</product_id>
-</product>
-<product>
-<url>
-http://www.insound.com/The-Suburbs-MP3-Arcade-Fire/P/INS78922/&from=86902
-</url>
-<artist_name>Arcade Fire</artist_name>
-<title>The Suburbs</title>
-<format>MP3</format>
-<product_id>INS78922</product_id>
-</product>
-<product>
-<url>
-http://www.insound.com/The-Suburbs-Deluxe-Edition-CD-and-DVD-Arcade-Fire/P/INS96835/&from=86902
-</url>
-<artist_name>Arcade Fire</artist_name>
-<title>The Suburbs (Deluxe Edition)</title>
-<format>CD+DVD</format>
-<product_id>INS96835</product_id>
-</product>
-<product>
-<url>
-http://www.insound.com/Outlands-Vinyl-LP-Deep-Sea-Arcade/P/INS108373/&from=86902
-</url>
-<artist_name>Deep Sea Arcade</artist_name>
-<title>Outlands</title>
-<format>Vinyl LP</format>
-<product_id>INS108373</product_id>
-</product>
-<product>
-<url>
-http://www.insound.com/Power-Out-CDep-Arcade-Fire/P/INS26778/&from=86902
-</url>
-<artist_name>Arcade Fire</artist_name>
-<title>Power Out</title>
-<format>CDep</format>
-<product_id>INS26778</product_id>
-</product>
-<product>
-<url>
-http://www.insound.com/Spring-Tour-2011-3-Chicago-poster-Arcade-Fire/P/INS95618/&from=86902
-</url>
-<artist_name>Arcade Fire</artist_name>
-<title>Spring Tour 2011 #3 (Chicago)</title>
-<format>Poster</format>
-<product_id>INS95618</product_id>
-</product>
-<product>
-<url>
-http://www.insound.com/Miroir-Noir-DVD-Arcade-Fire/P/INS54521/&from=86902
-</url>
-<artist_name>Arcade Fire</artist_name>
-<title>Miroir Noir</title>
-<format>DVD</format>
-<product_id>INS54521</product_id>
-</product>
-<product>
-<url>
-http://www.insound.com/December-5-6-2010-Show-Poster-poster-Arcade-Fire/P/INS90082/&from=86902
-</url>
-<artist_name>Arcade Fire</artist_name>
-<title>December 5-6, 2010 Show Poster</title>
-<format>Poster</format>
-<product_id>INS90082</product_id>
-</product>
-<product>
-<url>
-http://www.insound.com/June-30-2011-Show-Poster-poster-Arcade-Fire/P/INS98765/&from=86902
-</url>
-<artist_name>Arcade Fire</artist_name>
-<title>June 30, 2011 Show Poster</title>
-<format>Poster</format>
-<product_id>INS98765</product_id>
-</product>
-<product>
-<url>
-http://www.insound.com/Spring-Tour-2011-1-West-Coast-poster-Arcade-Fire/P/INS95619/&from=86902
-</url>
-<artist_name>Arcade Fire</artist_name>
-<title>Spring Tour 2011 #1 (West Coast)</title>
-<format>Poster</format>
-<product_id>INS95619</product_id>
-</product>
-<product>
-<url>
-http://www.insound.com/Funeral-MP3-Arcade-Fire/P/INS55433/&from=86902
-</url>
-<artist_name>Arcade Fire</artist_name>
-<title>Funeral</title>
-<format>MP3</format>
-<product_id>INS55433</product_id>
-</product>
-<product>
-<url>
-http://www.insound.com/July-12-2010-Show-Poster-poster-Arcade-Fire/P/INS80896/&from=86902
-</url>
-<artist_name>Arcade Fire</artist_name>
-<title>July 12, 2010 Show Poster</title>
-<format>Poster</format>
-<product_id>INS80896</product_id>
-</product>
-<product>
-<url>
-http://www.insound.com/September-21-and-22-2011-Show-Poster-poster-Arcade-Fire/P/INS106729/&from=86902
-</url>
-<artist_name>Arcade Fire</artist_name>
-<title>September 21 and 22, 2011 Show Poster</title>
-<format>Poster</format>
-<product_id>INS106729</product_id>
-</product>
-<product>
-<url>
-http://www.insound.com/Spring-Tour-2011-4-Tennessee-and-Texas-poster-Arcade-Fire/P/INS95616/&from=86902
-</url>
-<artist_name>Arcade Fire</artist_name>
-<title>Spring Tour 2011 #4 (Tennessee and Texas)</title>
-<format>Poster</format>
-<product_id>INS95616</product_id>
-</product>
-<product>
-<url>
-http://www.insound.com/Europe-Tour-2011-poster-Arcade-Fire/P/INS98764/&from=86902
-</url>
-<artist_name>Arcade Fire</artist_name>
-<title>Europe Tour 2011</title>
-<format>Poster</format>
-<product_id>INS98764</product_id>
-</product>
-<product>
-<url>
-http://www.insound.com/The-Suburbs-Deluxe-MP3-Arcade-Fire/P/INS98280/&from=86902
-</url>
-<artist_name>Arcade Fire</artist_name>
-<title>The Suburbs Deluxe</title>
-<format>MP3</format>
-<product_id>INS98280</product_id>
-</product>
-<product>
-<url>
-http://www.insound.com/Solo-Singles-Series-7-Vinyl-7inch-Trance-and-The-Arcade/P/INS17162/&from=86902
-</url>
-<artist_name>Trance and The Arcade</artist_name>
-<title>Solo Singles Series 7</title>
-<format>Vinyl 7&quot;</format>
-<product_id>INS17162</product_id>
-</product>
-<product>
-<url>
-http://www.insound.com/Neon-Bible-MP3-Arcade-Fire/P/INS55434/&from=86902
-</url>
-<artist_name>Arcade Fire</artist_name>
-<title>Neon Bible</title>
-<format>MP3</format>
-<product_id>INS55434</product_id>
-</product>
-<product>
-<url>
-http://www.insound.com/Canadian-Tour-September-2010-Show-Poster-poster-Arcade-Fire/P/INS89256/&from=86902
-</url>
-<artist_name>Arcade Fire</artist_name>
-<title>Canadian Tour, September 2010 Show Poster</title>
-<format>Poster</format>
-<product_id>INS89256</product_id>
-</product>
-<product>
-<url>
-http://www.insound.com/December-8-12-2010-Show-Poster-poster-Arcade-Fire/P/INS90081/&from=86902
-</url>
-<artist_name>Arcade Fire</artist_name>
-<title>December 8-12, 2010 Show Poster</title>
-<format>Poster</format>
-<product_id>INS90081</product_id>
-</product>
-<product>
-<url>
-http://www.insound.com/The-String-Quartet-Tribute-to-Arcade-Fires-Funereal-MP3-Arcade-Fire-String-Quartet-Tribute/P/INS39454/&from=86902
-</url>
-<artist_name>Arcade Fire String Quartet Tribute</artist_name>
-<title>
-The String Quartet Tribute to Arcade Fire's Funereal
-</title>
-<format>MP3</format>
-<product_id>INS39454</product_id>
-</product>
-</product_matches>
-<artist_matches>
-<artist>
-<artist_name>Arcade Fire</artist_name>
-<url>
-http://www.insound.com/Arcade-Fire/A/29908/&from=86902
-</url>
-<artist_id>29908</artist_id>
-</artist>
-<artist>
-<artist_name>Arcade Fire String Quartet Tribute</artist_name>
-<url>
-http://www.insound.com/Arcade-Fire-String-Quartet-Tribute/A/34443/&from=86902
-</url>
-<artist_id>34443</artist_id>
-</artist>
-<artist>
-<artist_name>Deep Sea Arcade</artist_name>
-<url>
-http://www.insound.com/Deep-Sea-Arcade/A/51254/&from=86902
-</url>
-<artist_id>51254</artist_id>
-</artist>
-<artist>
-<artist_name>Flashlight Arcade</artist_name>
-<url>
-http://www.insound.com/Flashlight-Arcade/A/30088/&from=86902
-</url>
-<artist_id>30088</artist_id>
-</artist>
-<artist>
-<artist_name>LCD Soundsystem / Arcade Fire</artist_name>
-<url>
-http://www.insound.com/LCD-Soundsystem-Arcade-Fire/A/34698/&from=86902
-</url>
-<artist_id>34698</artist_id>
-</artist>
-<artist>
-<artist_name>LCD Soundsystem/Arcade Fire</artist_name>
-<url>
-http://www.insound.com/LCD-SoundsystemArcade-Fire/A/38758/&from=86902
-</url>
-<artist_id>38758</artist_id>
-</artist>
-<artist>
-<artist_name>Trance and The Arcade</artist_name>
-<url>
-http://www.insound.com/Trance-and-The-Arcade/A/20727/&from=86902
-</url>
-<artist_id>20727</artist_id>
-</artist>
-</artist_matches>
-<total_results>37</total_results>
-<total_product_results>30</total_product_results>
-<total_artist_results>7</total_artist_results>
+ <warnings></warnings>
+ <errors></errors>
+ <product_matches>
+  <product>
+   <url>http://www.insound.com/Funeral-CD-Arcade-Fire/P/INS23877/&amp;from=86902</url>
+   <artist_name>Arcade Fire</artist_name>
+   <title>Funeral </title>
+   <format>CD</format>
+   <product_id>INS23877</product_id>
+  </product>
+  <product>
+   <url>http://www.insound.com/The-Suburbs-Vinyl-2xLP-Arcade-Fire/P/INS76692/&amp;from=86902</url>
+   <artist_name>Arcade Fire</artist_name>
+   <title>The Suburbs</title>
+   <format>Vinyl 2xLP</format>
+   <product_id>INS76692</product_id>
+  </product>
+  <product>
+   <url>http://www.insound.com/Neon-Bible-Vinyl-LP-Arcade-Fire/P/INS33679/&amp;from=86902</url>
+   <artist_name>Arcade Fire</artist_name>
+   <title>Neon Bible</title>
+   <format>Vinyl LP</format>
+   <product_id>INS33679</product_id>
+  </product>
+  <product>
+   <url>http://www.insound.com/Neon-Bible-CD-Arcade-Fire/P/INS33678/&amp;from=86902</url>
+   <artist_name>Arcade Fire</artist_name>
+   <title>Neon Bible</title>
+   <format>CD</format>
+   <product_id>INS33678</product_id>
+  </product>
+  <product>
+   <url>http://www.insound.com/Neon-Bible-Deluxe-Edition-CD-Arcade-Fire/P/INS33683/&amp;from=86902</url>
+   <artist_name>Arcade Fire</artist_name>
+   <title>Neon Bible (Deluxe Edition)</title>
+   <format>CD</format>
+   <product_id>INS33683</product_id>
+  </product>
+  <product>
+   <url>http://www.insound.com/Funeral-Reissue-Vinyl-LP-Arcade-Fire/P/INS70891/&amp;from=86902</url>
+   <artist_name>Arcade Fire</artist_name>
+   <title>Funeral (Reissue)</title>
+   <format>Vinyl LP</format>
+   <product_id>INS70891</product_id>
+  </product>
+  <product>
+   <url>http://www.insound.com/Arcade-Fire-CDep-Arcade-Fire/P/INS26865/&amp;from=86902</url>
+   <artist_name>Arcade Fire</artist_name>
+   <title>Arcade Fire  </title>
+   <format>CDep</format>
+   <product_id>INS26865</product_id>
+  </product>
+  <product>
+   <url>http://www.insound.com/May-29-30-2007-Show-Poster-poster-Arcade-Fire/P/INS36391/&amp;from=86902</url>
+   <artist_name>Arcade Fire</artist_name>
+   <title>May 29 &amp; 30, 2007 Show Poster</title>
+   <format>Poster</format>
+   <product_id>INS36391</product_id>
+  </product>
+  <product>
+   <url>http://www.insound.com/The-Suburbs-CD-Arcade-Fire/P/INS76693/&amp;from=86902</url>
+   <artist_name>Arcade Fire</artist_name>
+   <title>The Suburbs</title>
+   <format>CD</format>
+   <product_id>INS76693</product_id>
+  </product>
+  <product>
+   <url>http://www.insound.com/Miroir-Noir-Deluxe-Edition-2xDVD-Arcade-Fire/P/INS54522/&amp;from=86902</url>
+   <artist_name>Arcade Fire</artist_name>
+   <title>Miroir Noir (Deluxe Edition)</title>
+   <format>2xDVD</format>
+   <product_id>INS54522</product_id>
+  </product>
+  <product>
+   <url>http://www.insound.com/The-Suburbs-MP3-Arcade-Fire/P/INS78922/&amp;from=86902</url>
+   <artist_name>Arcade Fire</artist_name>
+   <title>The Suburbs</title>
+   <format>MP3</format>
+   <product_id>INS78922</product_id>
+  </product>
+  <product>
+   <url>http://www.insound.com/The-Suburbs-Deluxe-Edition-CD-and-DVD-Arcade-Fire/P/INS96835/&amp;from=86902</url>
+   <artist_name>Arcade Fire</artist_name>
+   <title>The Suburbs (Deluxe Edition)</title>
+   <format>CD+DVD</format>
+   <product_id>INS96835</product_id>
+  </product>
+  <product>
+   <url>http://www.insound.com/Outlands-Vinyl-LP-Deep-Sea-Arcade/P/INS108373/&amp;from=86902</url>
+   <artist_name>Deep Sea Arcade</artist_name>
+   <title>Outlands</title>
+   <format>Vinyl LP</format>
+   <product_id>INS108373</product_id>
+  </product>
+  <product>
+   <url>http://www.insound.com/Power-Out-CDep-Arcade-Fire/P/INS26778/&amp;from=86902</url>
+   <artist_name>Arcade Fire</artist_name>
+   <title>Power Out</title>
+   <format>CDep</format>
+   <product_id>INS26778</product_id>
+  </product>
+  <product>
+   <url>http://www.insound.com/Spring-Tour-2011-3-Chicago-poster-Arcade-Fire/P/INS95618/&amp;from=86902</url>
+   <artist_name>Arcade Fire</artist_name>
+   <title>Spring Tour 2011 #3 (Chicago)</title>
+   <format>Poster</format>
+   <product_id>INS95618</product_id>
+  </product>
+  <product>
+   <url>http://www.insound.com/Miroir-Noir-DVD-Arcade-Fire/P/INS54521/&amp;from=86902</url>
+   <artist_name>Arcade Fire</artist_name>
+   <title>Miroir Noir</title>
+   <format>DVD</format>
+   <product_id>INS54521</product_id>
+  </product>
+  <product>
+   <url>http://www.insound.com/December-5-6-2010-Show-Poster-poster-Arcade-Fire/P/INS90082/&amp;from=86902</url>
+   <artist_name>Arcade Fire</artist_name>
+   <title>December 5-6, 2010 Show Poster</title>
+   <format>Poster</format>
+   <product_id>INS90082</product_id>
+  </product>
+  <product>
+   <url>http://www.insound.com/June-30-2011-Show-Poster-poster-Arcade-Fire/P/INS98765/&amp;from=86902</url>
+   <artist_name>Arcade Fire</artist_name>
+   <title>June 30, 2011 Show Poster</title>
+   <format>Poster</format>
+   <product_id>INS98765</product_id>
+  </product>
+  <product>
+   <url>http://www.insound.com/Spring-Tour-2011-1-West-Coast-poster-Arcade-Fire/P/INS95619/&amp;from=86902</url>
+   <artist_name>Arcade Fire</artist_name>
+   <title>Spring Tour 2011 #1 (West Coast)</title>
+   <format>Poster</format>
+   <product_id>INS95619</product_id>
+  </product>
+  <product>
+   <url>http://www.insound.com/Funeral-MP3-Arcade-Fire/P/INS55433/&amp;from=86902</url>
+   <artist_name>Arcade Fire</artist_name>
+   <title>Funeral</title>
+   <format>MP3</format>
+   <product_id>INS55433</product_id>
+  </product>
+  <product>
+   <url>http://www.insound.com/July-12-2010-Show-Poster-poster-Arcade-Fire/P/INS80896/&amp;from=86902</url>
+   <artist_name>Arcade Fire</artist_name>
+   <title>July 12, 2010 Show Poster</title>
+   <format>Poster</format>
+   <product_id>INS80896</product_id>
+  </product>
+  <product>
+   <url>http://www.insound.com/September-21-and-22-2011-Show-Poster-poster-Arcade-Fire/P/INS106729/&amp;from=86902</url>
+   <artist_name>Arcade Fire</artist_name>
+   <title>September 21 and 22, 2011 Show Poster</title>
+   <format>Poster</format>
+   <product_id>INS106729</product_id>
+  </product>
+  <product>
+   <url>http://www.insound.com/Spring-Tour-2011-4-Tennessee-and-Texas-poster-Arcade-Fire/P/INS95616/&amp;from=86902</url>
+   <artist_name>Arcade Fire</artist_name>
+   <title>Spring Tour 2011 #4 (Tennessee and Texas)</title>
+   <format>Poster</format>
+   <product_id>INS95616</product_id>
+  </product>
+  <product>
+   <url>http://www.insound.com/Europe-Tour-2011-poster-Arcade-Fire/P/INS98764/&amp;from=86902</url>
+   <artist_name>Arcade Fire</artist_name>
+   <title>Europe Tour 2011</title>
+   <format>Poster</format>
+   <product_id>INS98764</product_id>
+  </product>
+  <product>
+   <url>http://www.insound.com/The-Suburbs-Deluxe-MP3-Arcade-Fire/P/INS98280/&amp;from=86902</url>
+   <artist_name>Arcade Fire</artist_name>
+   <title>The Suburbs Deluxe</title>
+   <format>MP3</format>
+   <product_id>INS98280</product_id>
+  </product>
+  <product>
+   <url>http://www.insound.com/Solo-Singles-Series-7-Vinyl-7inch-Trance-and-The-Arcade/P/INS17162/&amp;from=86902</url>
+   <artist_name>Trance and The Arcade</artist_name>
+   <title>Solo Singles Series 7</title>
+   <format>Vinyl 7&amp;quot;</format>
+   <product_id>INS17162</product_id>
+  </product>
+  <product>
+   <url>http://www.insound.com/Neon-Bible-MP3-Arcade-Fire/P/INS55434/&amp;from=86902</url>
+   <artist_name>Arcade Fire</artist_name>
+   <title>Neon Bible</title>
+   <format>MP3</format>
+   <product_id>INS55434</product_id>
+  </product>
+  <product>
+   <url>http://www.insound.com/Canadian-Tour-September-2010-Show-Poster-poster-Arcade-Fire/P/INS89256/&amp;from=86902</url>
+   <artist_name>Arcade Fire</artist_name>
+   <title>Canadian Tour, September 2010 Show Poster</title>
+   <format>Poster</format>
+   <product_id>INS89256</product_id>
+  </product>
+  <product>
+   <url>http://www.insound.com/December-8-12-2010-Show-Poster-poster-Arcade-Fire/P/INS90081/&amp;from=86902</url>
+   <artist_name>Arcade Fire</artist_name>
+   <title>December 8-12, 2010 Show Poster</title>
+   <format>Poster</format>
+   <product_id>INS90081</product_id>
+  </product>
+  <product>
+   <url>http://www.insound.com/The-String-Quartet-Tribute-to-Arcade-Fires-Funereal-MP3-Arcade-Fire-String-Quartet-Tribute/P/INS39454/&amp;from=86902</url>
+   <artist_name>Arcade Fire String Quartet Tribute</artist_name>
+   <title>The String Quartet Tribute to Arcade Fire's Funereal</title>
+   <format>MP3</format>
+   <product_id>INS39454</product_id>
+  </product>
+ </product_matches>
+ <artist_matches>
+  <artist>
+   <artist_name>Arcade Fire</artist_name>
+   <url>http://www.insound.com/Arcade-Fire/A/29908/&amp;from=86902</url>
+   <artist_id>29908</artist_id>
+  </artist>
+  <artist>
+   <artist_name>Arcade Fire String Quartet Tribute</artist_name>
+   <url>http://www.insound.com/Arcade-Fire-String-Quartet-Tribute/A/34443/&amp;from=86902</url>
+   <artist_id>34443</artist_id>
+  </artist>
+  <artist>
+   <artist_name>Deep Sea Arcade</artist_name>
+   <url>http://www.insound.com/Deep-Sea-Arcade/A/51254/&amp;from=86902</url>
+   <artist_id>51254</artist_id>
+  </artist>
+  <artist>
+   <artist_name>Flashlight Arcade</artist_name>
+   <url>http://www.insound.com/Flashlight-Arcade/A/30088/&amp;from=86902</url>
+   <artist_id>30088</artist_id>
+  </artist>
+  <artist>
+   <artist_name>LCD Soundsystem / Arcade Fire</artist_name>
+   <url>http://www.insound.com/LCD-Soundsystem-Arcade-Fire/A/34698/&amp;from=86902</url>
+   <artist_id>34698</artist_id>
+  </artist>
+  <artist>
+   <artist_name>LCD Soundsystem/Arcade Fire</artist_name>
+   <url>http://www.insound.com/LCD-SoundsystemArcade-Fire/A/38758/&amp;from=86902</url>
+   <artist_id>38758</artist_id>
+  </artist>
+  <artist>
+   <artist_name>Trance and The Arcade</artist_name>
+   <url>http://www.insound.com/Trance-and-The-Arcade/A/20727/&amp;from=86902</url>
+   <artist_id>20727</artist_id>
+  </artist>
+ </artist_matches>
+ <total_results>37</total_results>
+ <total_product_results>30</total_product_results>
+ <total_artist_results>7</total_artist_results>
 </insound_query_response>

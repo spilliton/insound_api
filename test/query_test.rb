@@ -8,8 +8,6 @@ module InsoundApi
         setup_credentials
       end
 
-
-
       context 'search by artist returning no results' do
         setup do
           mock(:no_results_found, "?artist=xxcxccxcx")
@@ -23,7 +21,8 @@ module InsoundApi
           assert_equal 0, @results.products_total
           assert_equal 0, @results.artists_total
           assert_equal 0, @results.total_results
-          assert @results.search_url
+
+          assert @results.search_url.include?("http://www.insound.com/search/?query=xxcxccxcx&from=")
         end
       end
 
@@ -40,7 +39,7 @@ module InsoundApi
           assert_equal 0, @results.products_total
           assert_equal 0, @results.artists_total
           assert_equal 0, @results.total_results
-          assert @results.search_url
+          assert @results.search_url.include?("http://www.insound.com/search/?query=xxcxccxcx&from=")
         end
       end
 
@@ -60,14 +59,14 @@ module InsoundApi
           assert_nil @results.search_url
 
           product = @results.products.first
-          assert product.url
+          assert product.url.include?("http://www.insound.com/Invented-Vinyl-LP-Jimmy-Eat-World/P/INS79668/&from=")
           assert_equal 'Jimmy Eat World', product.artist_name
           assert_equal 'Invented', product.title
           assert_equal 'Vinyl LP', product.format
           assert_equal 'INS79668', product.id
 
           artist = @results.artists.first
-          assert artist.url
+          assert artist.url.include?("http://www.insound.com/Jimmy-Eat-World/A/19191/&from=")
           assert_equal 'Jimmy Eat World', artist.name
           assert_equal 19191, artist.id
         end
@@ -89,14 +88,14 @@ module InsoundApi
           assert_nil @results.search_url
 
           product = @results.products.first
-          assert product.url
+          assert product.url.include?("http://www.insound.com/Funeral-CD-Arcade-Fire/P/INS23877/&from=")
           assert_equal 'Arcade Fire', product.artist_name
           assert_equal 'Funeral', product.title
           assert_equal 'CD', product.format
           assert_equal 'INS23877', product.id
 
           artist = @results.artists.first
-          assert artist.url
+          assert artist.url.include?("http://www.insound.com/Arcade-Fire/A/29908/&from=")
           assert_equal 'Arcade Fire', artist.name
           assert_equal 29908, artist.id
         end
@@ -119,14 +118,15 @@ module InsoundApi
           assert_nil @results.search_url
 
           product = @results.products.first
-          assert product.url
+
+          assert product.url.include?("http://www.insound.com/Zen-Arcade-Vinyl-LP-Husker-Du/P/INS13241/&from=")
           assert_equal 'Husker Du', product.artist_name
           assert_equal 'Zen Arcade', product.title
           assert_equal 'Vinyl LP', product.format
           assert_equal 'INS13241', product.id
 
           artist = @results.artists.first
-          assert artist.url
+          assert artist.url.include?("http://www.insound.com/Husker-Du/A/21544/&from=")
           assert_equal 'Husker Du', artist.name
           assert_equal 21544, artist.id
         end
