@@ -56,8 +56,6 @@ module InsoundApi
         end
         url = "#{url}&#{parts.join('&')}"
       end
-      puts "url: #{url.inspect}"
-
       url
     end
 
@@ -73,8 +71,6 @@ module InsoundApi
     def base_url_with_creds
       "#{BASE_URL}?id=#{affiliate_id}&password=#{api_password}"
     end
-
-
 
   end
 end

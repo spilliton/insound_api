@@ -47,7 +47,7 @@ module InsoundApi
     def self.parse_int(selector, doc)
       nodes = doc.css(selector)
       if nodes.any?
-        nodes.first.inner_html.to_i
+        nodes.first.inner_html.strip.to_i
       else
         0
       end
@@ -60,7 +60,7 @@ module InsoundApi
     def self.parse_str(selector, doc)
       nodes = doc.css(selector)
       if nodes.any?
-        nodes.first.inner_html
+        nodes.first.inner_html.strip
       end
     end
 

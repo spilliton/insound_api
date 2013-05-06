@@ -1,0 +1,36 @@
+<insound_query_response>
+<warnings/>
+<errors/>
+<product_matches>
+<product>
+<url>
+http://www.insound.com/Zen-Arcade-Vinyl-LP-Husker-Du/P/INS13241/&from=86902
+</url>
+<artist_name>Husker Du</artist_name>
+<title>Zen Arcade</title>
+<format>Vinyl LP</format>
+<product_id>INS13241</product_id>
+</product>
+<product>
+<url>
+http://www.insound.com/Zen-Arcade-CD-Husker-Du/P/INS58556/&from=86902
+</url>
+<artist_name>Husker Du</artist_name>
+<title>Zen Arcade</title>
+<format>CD</format>
+<product_id>INS58556</product_id>
+</product>
+</product_matches>
+<artist_matches>
+<artist>
+<artist_name>Husker Du</artist_name>
+<url>
+http://www.insound.com/Husker-Du/A/21544/&from=86902
+</url>
+<artist_id>21544</artist_id>
+</artist>
+</artist_matches>
+<total_results>3</total_results>
+<total_product_results>2</total_product_results>
+<total_artist_results>1</total_artist_results>
+</insound_query_response>
